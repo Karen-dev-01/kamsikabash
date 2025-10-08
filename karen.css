@@ -1,0 +1,572 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+header .folder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    padding: 5px 80px; 
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* padding-top: 25px; */
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+    font-size: 20px;
+}
+.file .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    background-color: navy;
+    margin-top: 5px;
+    height: 9vh;
+    padding: 5px 80px;
+    gap: 10px;
+}
+.file .head h1{
+   padding-top: 10px;
+   color: white; 
+}
+.file .head form{
+    padding-top: 10px;
+}
+.file .head .logo{
+    width: 20%;
+}
+.file .head .search{
+    width: 60%;
+    margin-bottom: 35px;
+}
+.file .head form input{
+    width: 100%;
+    padding: 8px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+}
+.file .head form input:focus{
+    outline: none;
+    border: none;
+}
+.file .head .enter{
+    font-size: 40px;
+    padding-top: 10px;
+    color: white;
+    
+}
+.space{
+    width: 100%;
+    /* text-align: center; */
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(1, 71, 48, 0.6)), url(image/goat/goat\ 1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+
+}
+.book .sch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 80px;
+    gap: 20px;
+}
+.book .sch img{
+    width: 80%;
+}
+.book .sch .about{
+    background-color: rgb(143, 10, 10);
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    width: 50%;
+}
+
+section .back{
+    /* text-align: center; */
+    color: white;
+    /* margin-top: 5px; */
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+}
+section .back h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+section .back p{
+    font-size: 20px;
+}
+.back button{
+    margin-top: 30px;
+   padding: 8px 20px;
+   background-color: navy;
+   font-size: 20px;
+   color: white;
+
+}
+.lock .cent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    padding: 25px 80px;
+}
+.lock .cent .sale{
+    background-color: silver;
+    color: black;
+    padding: 6px 20px;
+}
+.lock .cent .order{
+    background-color: silver;
+    color: black;
+    padding: 6px 20px;
+}
+.lock .cent .delivery{
+    background-color: silver;
+    color: black;
+    padding: 6px 20px;
+}
+.class{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 30px;
+}
+.rear .animal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 5px 80px;
+}
+.rear .animal button{
+    background-color: darkslategray ;
+    color: white;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+.rear .animal img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+/* press */
+.press{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.press .com img{
+    width: 100%;
+    padding: 0px;
+}
+.press .com{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 5px 100px;
+}
+
+.press .com .ani img{
+    width: 100% !important;
+    /* width: 25%; */
+    /* position: relative; */
+}
+
+.press .com .ani h1{
+    /* position: absolute; */
+}
+form{
+    padding: 5px 80px;
+    width: 100%;
+    color: white;
+    /* text-align: center; */
+    border-color: navy;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+form label, form .form-text{
+    font-size: 20px;
+    color: white;
+}
+.press .com img{
+    width: 40%;
+}
+form{
+    width: 100%;
+}
+.form .mama{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    
+}
+.form .mama img{
+    width: 80%;
+    /* height: 10vh; */
+}
+.form .mama .pass{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/chicken/hen\ 5.jpg);
+    background-size: cover;
+}
+.form .mama .pass input{
+    padding: 10px 10px;
+}
+
+
+/* footer section */
+
+.footer .euro .content{
+    display: flex;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    gap: 50px;
+    padding: 5px 100px;
+}
+.footer .euro .div{
+    width: 100%;
+    font-size: 25px;
+}
+.footer .euro .number{
+    width: 100%;
+    font-size: 25px;
+}
+.footer .euro img{
+    width: 70%;
+}
+
+.bar{
+    display: none;
+}
+a{
+    color: white;
+}
+
+/* Responsive part Mobile screen */
+
+@media screen and (max-width: 600px){
+    /* body{
+        background-color: red;
+    } */
+     .navs{
+        display: none;
+     }
+     header{
+        padding: 0px 1px;
+     }
+
+     .bar{
+        display: block;
+        color: rgb(2, 2, 65);
+        font-size: 25px;
+        display: flex;
+        gap: 5px;
+     }
+     header .folder{
+        padding: 5px 20px; 
+        align-items: center;
+     }
+     section.file{
+        display: none;
+     }
+     .space .back{
+        padding: 0px 20px;
+     }
+     .space .back h1{
+        font-size: 2.5rem;
+     }
+     .space .back p{
+        line-height: 1em;
+        font-size: 16px;
+     }
+     .rear .animal{
+        flex-direction: column;
+        padding: 0px 20px;
+        align-items: center;
+     }
+     .press .com{
+        padding: 0px 5px;
+     }
+     .book .sch{
+        flex-direction: column;
+        padding: 0px;
+        /* padding: 30px 20px; */
+        gap: 0px;
+        justify-content: center;
+     }
+     .book .sch .about{
+        width: 100%;
+        /* padding: 5px; */
+        /* padding: 30px 20px; */
+     }
+     .book .sch img{
+        width: 100%;
+        align-items: center;
+        /* padding: 10px; */
+     }
+     .lock .cent{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+     }
+     .lock .cent .sales{
+        width: 100%;
+        /* background-color: red; */
+     }
+     .form .mama{
+        flex-direction: column;
+     }
+     .form .mama img{
+        width: 100%;
+        /* padding: 5px 0px */
+     }
+     .footer .euro .content{
+        flex-direction: column;
+     }
+     .footer .euro img{
+        width: 80px;
+     }
+     .footer .euro .content form{
+        padding: 0px;
+     }
+     .footer .euro .content .number{
+        display: none;
+     }
+     .rear .animal{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0px !important;
+     }
+     .rear .animal img{
+        width: 100%;
+        align-items: center;  
+     }
+     .rear .animal p{
+        text-align: center;
+     }
+     .rear .animal button{
+        text-align: center;
+     }
+     .food{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+     }
+     .press .com{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+     }
+
+     
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1100px){
+    .space .back p{
+        padding: 10px 25px;
+        font-size: 27px;
+    }
+    .space .back button{
+        font-size: 27px;
+        padding: 10px 25px;
+    } 
+    .book{
+        padding: 20px 0px;
+    }
+    .book .sch .about{
+        padding: 30px 30px !important;
+        font-size: 27px;
+        /* background-color: yellow; */
+        /* padding: 100px !important; */
+    }
+    .book .sch .insert{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .sch{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .lock .cent .sales{
+        padding: 40px 20px;
+        font-size: 27px;
+    }
+    .rear .animal{
+        width: 100%; 
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0px !important;
+    }
+    .rear .animal .food{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        font-size: 27px;
+        padding: 0px;
+        /* color: white; */
+    }
+    .food button a{
+        color: white !important;
+        font-size: 22px;
+    }
+    .form, .mama, .pass{
+        width: 100%;
+        padding: 0px;
+    }
+    .form .pass form button{
+        font-size: 25px;
+    }
+    .form .pass form input{
+        font-size: 22px;
+    }
+    .form .pass form{
+        width: 100%;
+        padding: 30px 50px !important;
+    }
+    .file .head .logo{
+        width: 30%;
+    }
+    .file .head .search{
+        width: 40%;
+    }
+    .file .head .enter{
+        width: 30%;
+        padding: 0px;
+        text-align: right;
+    }
+    .file .head .logo h1{
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .file .head{
+        padding: 10px 30px;
+    }
+    .book .sch{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 3px;
+    }
+    .book .sch .about{
+        width: 100%;
+        padding: 0px;
+        /* gap: 0px; */
+    }
+    .lock .cent{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer .euro img{
+        width: 80px;
+     }
+     .form .mama img{
+        width: 100%;
+        padding: 5px;
+     }
+     .form .mama{
+        flex-direction: column;
+     }
+     .footer .euro{
+        width: 100%;
+     }
+     .footer .euro .content .div{
+        padding: 25px 0px;
+     }
+     .press .com .ani{
+        /* width: 100% !important; */
+        min-width: 50%;
+        /* background-color: yellow; */
+     }
+     .press .com{
+        flex-wrap: wrap;
+     }
+    
+}
+
+/* egg1 css */
+.hero{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to left, rgba(151, 7, 108, 0.8), rgba(28, 2, 119, 0.932)), url(image/egg/egg\ 3.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.hero-milk{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to left, rgba(151, 7, 108, 0.8), rgba(28, 2, 119, 0.932)), url(image/milk/milk\ 4.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.hero .container{
+    width: 100%;
+    color: white;
+    /* height: 100%; */
+}
+
+.hero-milk .container{
+    width: 100%;
+    color: white;
+    /* height: 100%; */
+}
+
+.egg{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.egg .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
